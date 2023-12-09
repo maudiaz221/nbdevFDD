@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdevFDD",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "nbdevFDD",
+    "section": "Install",
+    "text": "Install\npip install nbdevFDD"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdevFDD",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  },
+  {
+    "objectID": "listadesupermercado.html",
+    "href": "listadesupermercado.html",
+    "title": "Lista de Supermercado",
+    "section": "",
+    "text": "source"
+  },
+  {
+    "objectID": "listadesupermercado.html#prueba-de-lista-de-super",
+    "href": "listadesupermercado.html#prueba-de-lista-de-super",
+    "title": "Lista de Supermercado",
+    "section": "Prueba de Lista De Super",
+    "text": "Prueba de Lista De Super\n\nlista = listaDeSuper()\n\nAgregamos articulos\n\nlista.subirArticuloEnLista('manzana', 10, 2)\nlista.subirArticuloEnLista('pera', 10, 2)\nlista.subirArticuloEnLista('coca', 10, 2)\n\nTrue\n\n\nImprimos articulos\n\nlista.Articulos()\n\n'Artículo: manzana Precio: 10 Cantidad: 2 Fue agregado: False, Artículo: pera Precio: 10 Cantidad: 2 Fue agregado: False, Artículo: coca Precio: 10 Cantidad: 2 Fue agregado: False, '\n\n\nPon un articulo como agregado\n\nlista.agregarArticulo('manzana')\n\nTrue\n\n\nlista de articulos no agregados para ver que ya no esta manzana\n\nlista.articulosNoAgregado()\n\n'pera, coca, '"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()"
+  },
+  {
+    "objectID": "core copy.html",
+    "href": "core copy.html",
+    "title": "Tarea",
+    "section": "",
+    "text": "source\n\nTarea\n\n Tarea (titulo:str, fecha_entrega:str, descripcion:str='')\n\nInitialize self. See help(type(self)) for accurate signature.\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\ntitulo\nstr\n\ntitulo de la tarea\n\n\nfecha_entrega\nstr\n\nfecha de entrega de la tarea\n\n\ndescripcion\nstr\n\ndescripcion de la tarea\n\n\nReturns\nNone"
+  },
+  {
+    "objectID": "articulo.html",
+    "href": "articulo.html",
+    "title": "Articulo",
+    "section": "",
+    "text": "source\n\nArticulo\n\n Articulo (nombre:str, precio:float, cantidad:int, agregado:bool=False)\n\nLa clase Articulo representa un artículo en un sistema de gestión de inventario. Aquí tienes una breve descripción:\nLa clase Articulo tiene los siguientes atributos:\nnombre (str): El nombre del artículo.\nprecio (float): El precio del artículo.\ncantidad (int): La cantidad de unidades del artículo en el inventario.\nagregado (bool, opcional, por defecto False): Un indicador que representa si el artículo ha sido agregado.\nEl método str proporciona una representación legible del objeto en formato de cadena, incluyendo el nombre, precio, cantidad y el estado de si fue agregado o no.\nLa clase se utiliza para modelar y gestionar información sobre artículos en un inventario, proporcionando una manera conveniente de acceder y manipular datos relacionados con el inventario.\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nnombre\nstr\n\nnombre del artículo\n\n\nprecio\nfloat\n\nprecio del artículo\n\n\ncantidad\nint\n\ncantidad del artículo\n\n\nagregado\nbool\nFalse\nsi fue agregado\n\n\nReturns\nNone\n\n\n\n\n\nPrueba de Crear un Articulo\n\nArticulo1 = Articulo('Coca Cola', 10, 2)"
+  }
+]
