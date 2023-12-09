@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdevFDD"
+  site-url: "https://maudiaz221.github.io/nbdevFDD"
+  description: "Activity for nbdev class"
+  repo-branch: main
+  repo-url: "https://github.com/maudiaz221/nbdevFDD"

@@ -1,0 +1,8 @@
+website:
+  sidebar:
+    contents:
+      - index.ipynb
+      - 00_core copy.ipynb
+      - 00_core.ipynb
+      - 01_articulo.ipynb
+      - 02_ListaDeSupermercado.ipynb
